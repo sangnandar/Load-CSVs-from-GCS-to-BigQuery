@@ -28,7 +28,9 @@ These APIs should be enabled:
 - In this example, only 2 date columns and 1 integer column are validated. Additional validations can be incorporated into the `loadCsvToBQ` stored procedure.
 - In this example, the date columns originate in the MM/DD/YY format and the integer column originates as a string with thousand separator.
 - BigQuery temporary table must include `_SESSION` because when `LOAD INTO` fails the temporary table will not be created and subsequent `DROP TABLE` will throw error.
-- Target table structure [screenshot].
+- Target table structure:
+
+  ![image](https://github.com/user-attachments/assets/8b8682b4-55ad-42eb-bf77-6eb64715bd19)
 
 ### Apps Script configuration
 - Deploy the project as webapp.
@@ -73,7 +75,9 @@ These APIs should be enabled:
   'Files'!A2:A
   ```
 
-Sheets layout [sreenshot]
+Sheets layout:
+
+![image](https://github.com/user-attachments/assets/02372627-d54b-4516-82be-46f48d17fab0)
 
 # Usage
 - Attach the Apps Script to a Google Sheets.
